@@ -92,3 +92,26 @@ img{
     display: none;
   }
 }
+
+/* Caso Smartphone */
+
+@media screen and (max-width: 480px) {
+  .row {
+    width: 100vw;
+  }
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 100%;
+  }
+
+  [background="grey"]{
+    background-color: #fff;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+  width: 100%;
+  }
+
+}
