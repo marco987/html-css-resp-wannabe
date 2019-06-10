@@ -65,3 +65,30 @@ img{
 .clear {
   clear:both;
 }
+
+
+/* MEDIA QUERY */
+
+/* Caso desktop */
+
+@media screen and (min-width: 1200px) {
+  .row {
+    width: 1200px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: calc(100% / 3);
+    float: left;
+    padding-bottom: 50px;
+  }
+
+  hr {
+    display: none;
+  }
+}
